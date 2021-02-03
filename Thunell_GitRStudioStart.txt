@@ -1,19 +1,26 @@
-Start using Github 20201020:
+How to Start using Github with Rstudio 20210203:
 
-### Good overview reading and excercies
+DISCLAIMER: This installation is connected to issues with the interactions of SLU computers, R and Rstudio-Github and I take no responsibility of possible side effects of following these instructions :)
+
+### Good overview reading, excercies or random comments
 https://dynamicecology.wordpress.com/2015/05/28/my-first-experience-with-github-for-sharing-data-and-code/#comments
 
 https://github.com/microbialinformatics/assignment01
 
-- "The shell is a program on your computer whose job is to run other programs. Pseudo-synonyms are ìterminalî, ìcommand lineî, and ìconsoleî. The most common shell for Git is bash"
+"The shell is a program on your computer whose job is to run other programs. Pseudo-synonyms are ‚Äúterminal‚Äù, ‚Äúcommand line‚Äù, and ‚Äúconsole‚Äù. The most common shell for Git is bash"
 
+https://happygitwithr.com/rstudio-git-github.html
 
-### Steps taken
-1- Make github profile and a reporsitory, url :
-https://github.com/VThunell/Warming_IGP_communities
+### Steps taken to Install/Connect github with Rstudio
+1- Make github profile and start a repository (e.g. Name_Repo) to test intallation on:
+https://github.com/
+
+write something in the README.md file and save it
 
 2- Install Git from https://git-scm.com/download/win:
 Use suggested settings apart from preferred browser if optional, dont use internet explorer!
+
+BONUS step: Updating R and Rstudio might be a (very) good thing!
 
 3- Configure ssh keys:
 Google: what are ssh keys
@@ -23,35 +30,38 @@ https://kbroman.org/github_tutorial/pages/first_time.html
 
 https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
 
-4- Restart Rstudio (I updated R and Rstudio)
-File > new project > version control option > Git/SVN
+4- Restart Rstudio 
+then go to: File > new project > version control option > Git/SVN
 
-5- This helped to fix path issue for Git:
+From here, there are likely several issues. Going about them sucessfully is a matter of googling, trial-and-error and might be computer etc. dependent. ALSO: be solution-oriented and bold!
+
+5- For me, this helped to fix path issue for Git:
 https://www.geo.uzh.ch/microsite/reproducible_research/post/rr-rstudio-git/
 
-4- Restart Rstudio
+6 - Restart Rstudio
 File > new project > version control option > Git/SVN
 when:
 create project > git/svn >
 Add repository url etc.
 
-6- My Git tab not showing up:
+6- My Git tab is not showing up! This helped me:
 https://community.rstudio.com/t/git-tab-still-missing-in-r-studio-after-tried-some-methods-i-saw-online/18749
-
 https://stackoverflow.com/questions/34891827/rstudio-gives-incorrect-function-when-setting-git-as-version-control/35576068
 
 7- Issue of server based path and administrative rights:
-Change permission (readble/writable) for Git in C:\Program (right click > s‰kerhet)
-Make a directory at C:\Users\vitl0001 where my repositories are saved localy instead of at a server path. Make sure that there is no space in the path
+Change permission (readble/writable) for Git in C:\Program (right click > s√§kerhet/security)
+Make a directory at C:\Users\username where my repositories are saved localy instead of at a server path. Make sure that there is no space in the path
 
-Maybe: You need to run Rstudio as an admin to set this up for the project:
+Maybe 1. (try without it first): You need to run Rstudio as an admin to set this up for the project:
+
 https://stackoverflow.com/questions/34891827/rstudio-gives-incorrect-function-when-setting-git-as-version-control/35576068
 "What version of Windows are you using? You should be able to right-click on the Rstudio.exe icon, click Properties, and select an option to always run Rstudio as administrator. Be sure you use that same icon whenever you want to open Rstudio"
 
-8- Resinstall Git (not sure if needed). 
+Maybe 2. - Resinstall Git (not sure if needed). 
 
-9- In Git bash, set where my repo is and initiate by:
+Maybe 3. - In Git bash, set where my repo is and initiate by:
 cd C:/Users/vitl0001/VThunell_repos/Warming_IGP_communities
 git init
 
 VOILA!!! (hopefully)
+Pull your repo from Git (blue arrow)
