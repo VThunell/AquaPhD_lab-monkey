@@ -10,12 +10,10 @@ Repo for an exercise in Github using Rstudio and also Rmarkdown.
 
 Now you're ready for our collaboration in which we produce a introductory R-exercise for MSc students with code (.R) and intructions provided in a Rmarkdown document (.Rmd) 
 
-3. Clone this repo (lab-monkey) by clicking green button "code" and create a version control project in Rstudio.
+3. Clone this repo (lab-monkey) by clicking green button "code" and create a version control project in Rstudio. Don't fork the repo as I think this dont suit our desired  workflow for our collaboration.
 
 4. Make changes to .Rmd and/or the .R file
 
-5. Commit and push. This will become a pull request for the master branch (I think). From here I can guide no longer...
+5. Commit and push. This will become a pull request (I think) that I will review. From here I can guide no longer...
 
-3. Fork this repo (lab-monkey), and make chnages to .Rmd and/or the .R file
-https://happygitwithr.com/fork-and-clone.html
-
+https://happygitwithr.com/index.html
