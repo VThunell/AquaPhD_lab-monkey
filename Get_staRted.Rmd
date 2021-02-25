@@ -1,5 +1,5 @@
 ---
-title: "GitRstudioAquaPhD"
+title: "R basics"
 author: "Viktor Thunell"
 date: '2021-02-03'
 output: html_document
@@ -10,6 +10,10 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## R Markdown
+
+### Authors: Viktor Thunell, ..., 
+
+Ok, so Ive come up with a atchy name for the file. The name of the document that this fiel produces is however the title at line 2 above. Here are the standard instructions that a new Rmd file gives:
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 

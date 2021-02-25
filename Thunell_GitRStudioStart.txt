@@ -64,4 +64,5 @@ cd C:/Users/vitl0001/VThunell_repos/Warming_IGP_communities
 git init
 
 VOILA!!! (hopefully)
-Pull your repo from Git (blue arrow)
+
+
