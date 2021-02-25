@@ -19,6 +19,3 @@ Now you're ready for our collaboration in which we produce a introductory R-exer
 3. Fork this repo (lab-monkey), and make chnages to .Rmd and/or the .R file
 https://happygitwithr.com/fork-and-clone.html
 
-Lets produce a introductory R-exercise for MSc students with code (Get_staRted.R) and instructions provided in a Rmarkdown document (Get_staRted.Rmd) 
-
-
